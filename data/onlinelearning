@@ -1,0 +1,21 @@
+{
+  "ids": {
+    "User": 3,
+    "Enrollment": 3,
+    "Course": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"john_doe\",\"email\":\"john.doe@example.com\",\"password\":\"securePassword123\",\"role\":\"student\",\"bio\":\"An aspiring developer passionate about learning new technologies.\",\"createdAt\":\"2024-10-28T07:53:56.231Z\",\"updatedAt\":\"2024-10-28T07:53:56.231Z\",\"id\":1}",
+      "2": "{\"username\":\"jane_smith\",\"email\":\"jane.smith@example.com\",\"password\":\"anotherSecurePassword456\",\"role\":\"instructor\",\"bio\":\"Experienced software engineer with a love for teaching.\",\"createdAt\":\"2024-10-28T07:53:56.231Z\",\"updatedAt\":\"2024-10-28T07:53:56.231Z\",\"id\":2}"
+    },
+    "Enrollment": {
+      "1": "{\"userId\":1,\"courseId\":101,\"enrollmentDate\":\"2024-10-28T09:00:02.359Z\",\"status\":\"active\",\"id\":1}",
+      "2": "{\"userId\":2,\"courseId\":102,\"enrollmentDate\":\"2024-10-28T09:00:02.359Z\",\"status\":\"completed\",\"id\":2}"
+    },
+    "Course": {
+      "1": "{\"title\":\"Introduction to Programming\",\"description\":\"A beginner-friendly course that covers the basics of programming using Python.\",\"duration\":\"6 weeks\",\"level\":\"beginner\",\"createdAt\":\"2024-10-28T09:00:28.657Z\",\"updatedAt\":\"2024-10-28T09:00:28.657Z\",\"id\":1}",
+      "2": "{\"title\":\"Advanced Data Science Techniques\",\"description\":\"An in-depth course focusing on advanced methodologies in data science, including machine learning algorithms, data visualization, and statistical analysis.\",\"duration\":\"8 weeks\",\"level\":\"Advanced\",\"createdAt\":\"2024-10-28T09:11:39.360Z\",\"updatedAt\":\"2024-10-28T09:11:39.360Z\",\"id\":2}"
+    }
+  }
+}
